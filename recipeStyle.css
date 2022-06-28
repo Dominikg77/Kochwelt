@@ -1,0 +1,334 @@
+.übrig1 {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    padding-top: 180px;
+    padding-bottom: 25px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rezept-picture {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.subline-icon {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+
+.subline-icon img {
+    width: 14px;
+    margin-right: 5px;
+    padding-bottom: 25px;
+}
+
+.icon-box {
+    font-size: 16px;
+    background-color: rgba(128, 128, 128, 0.189);
+    padding: 8px;
+    margin-right: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.portion {
+    margin-top: 60px;
+}
+
+button {
+    background-color: green;
+    padding: 8px 24px 8px 24px;
+    padding-left: 16px !important;
+    padding-right: 100px !important;
+    border: 1px solid green;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 16px;
+}
+
+button:hover {
+    background-color: rgba(0, 128, 0, 0.817);
+}
+
+input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.185);
+    border-radius: 16px;
+}
+
+table {
+    margin-top: 15px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+td {
+    margin-right: 100px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+tr {
+    background-color: rgba(152, 172, 151, 0.132);
+}
+
+table tr:nth-child(2n) {
+    background-color: white;
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 24px;
+    margin-bottom: -20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.rezept-impressum-container {
+    margin-top: 24px;
+    margin-bottom: 44px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.rezept-impressum {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rezept-impressum img {
+    width: 60px;
+    margin-right: 20px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.rezept-impressum p {
+    font-size: 24px;
+}
+
+.mainBody {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+#header {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 135px;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: fixed;
+    border-bottom: 5px solid rgb(177, 177, 177, 0.3);
+}
+
+#logo_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left: 12%;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.navbar a:hover {
+    transition: all 125ms ease-in-out;
+    color: green;
+    border-bottom: 6px solid green;
+    padding-bottom: 14px;
+}
+
+#logo {
+    height: 70px;
+}
+
+#navbar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+    margin-right: 12%;
+    font-size: 25px;
+    width: 32%;
+    font-weight: 600;
+}
+
+.icons {
+    height: 100px;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    /* margin-left: 100px; */
+    /* margin-top: 32px; */
+    box-shadow: rgb(24 26 27 / 20%) 0px 1px 0px;
+}
+
+.picture-clock {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 32px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(240 240 240);
+    margin-right: 32px;
+}
+
+.picture-brain {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 32px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(240 240 240);
+    margin-right: 32px;
+}
+
+.picture-calender {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 32px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(240 240 240);
+    margin-right: 32px;
+}
+
+.imgHeight {
+    height: 20px;
+}
+
+.portion {
+    display: flex;
+    align-items: center;
+    /* margin-left: 100px; */
+    margin-top: 32px;
+    font-size: 24px;
+}
+
+.input {
+    max-width: 80px;
+    padding: 8px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 22px 0 0 22px;
+    border-right: 0px;
+    box-sizing: border-box;
+    border: 1px solid darkgray;
+}
+
+.button {
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 0 22px 22px 0;
+    background-color: rgb(60, 130, 70);
+    border-color: transparent;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.button:hover {
+    box-shadow: inset 120px 0 0 0 rgb(17, 92, 28);
+    border-color: rgb(17, 92, 28);
+    ;
+}
+
+@media(max-width: 600px) {
+    .icons {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .picture-clock {
+        margin: 5px auto;
+    }
+
+    .picture-brain {
+        margin: 5px auto;
+    }
+
+    .picture-calender {
+        margin: 5px auto;
+    }
+
+    .portion {
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .input {
+        border-radius: 22px 22px 22px 22px;
+        margin: 5px auto;
+    }
+
+    .button {
+        border-radius: 22px 22px 22px 22px;
+        margin: 5px auto;
+    }
+
+    .subline-icon {
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .icon-box {
+        margin: 5px auto;
+    }
+}

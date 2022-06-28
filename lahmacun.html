@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Türkische Pizza (Lahmacun)</title>
+    <link rel="stylesheet" href="recipeStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link id="icon" rel="icon" href="img/logo_small.png">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Font-->
+    <script src="scriptDominik.js"></script>
+</head>
+
+<body onload="calcLahmacun()">
+    <!--Header-->
+    <nav>
+        <div id="logo_div">
+            <img id="logo" src="img/logo.png" alt="Logo Kochwelt">
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">Start</a>
+            </li>
+            <li>
+                <a href="hafertaler.html" id="aRecipe">Rezept des Tages</a>
+            </li>
+            <li>
+                <a href="kontakt.html">Kontakt</a>
+            </li>
+            <li>
+                <a href="imprint.html">Impressum</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <script src="navbar.js"></script>
+    <!--Header Bis Hier -->
+
+    <!--Effektiver Inhalt  -->
+    <div class="mainBody">
+        <h2>Türkische Pizza (Lahmacun)</h2>
+
+        <img class="rezept-picture" src="img/lahmacun.jpg" alt="">
+
+        <div class="icons">
+            <div class="picture-clock">
+                <img class="imgHeight" src="./img/icons/clock-regular.svg">
+                <p>60 Min</p>
+            </div>
+            <div class="picture-brain">
+                <img class="imgHeight" src="./img/icons/brain-solid.svg">
+                <p>simple</p>
+            </div>
+            <div class="picture-calender">
+                <img class="imgHeight" src="./img/icons/calendar-alt-regular.svg">
+                <p>12.06.2022</p>
+            </div>
+        </div>
+        <!-- <div class="subline-icon">
+            <div class="icon-box"><img src="img/icons/clock-regular.svg" alt="">60min</div>
+            <div class="icon-box"><img src="img/icons/brain-solid.svg" alt="">simple</div>
+            <div class="icon-box"><img src="img/icons/calendar-alt-regular.svg" alt="">12.06.2022</div>
+        </div> -->
+        <div class="portion">
+            <p>Zutaten für</p>
+            <input id="portion" class="input" type="number" min="1" value="4">
+            <button onclick="calcLahmacun()" class="button">Portionen</button>
+        </div>
+
+
+        <div>
+            <h3>Für die Füllung:</h3>
+            <div id="table">
+            </div>
+        </div>
+
+        <h3>Zubereitung</h3>
+        <div class="subline-icon">
+            <div class="icon-box"><img src="img/icons/clock-regular.svg" alt=""> ca 15 Minunten</div>
+            <div class="icon-box"><img src="img/icons/clock-regular.svg" alt=""> Gesamtzeit ca 30 Minunten</div>
+        </div>
+
+        <p>Für die Füllung werden alle Zutaten in einer Küchenmaschine kleingeschnitten und miteinander vermischt</p>
+        <p>Lammbauchspeck könnt ihr entweder direkt beim Schlachter mit dem Hackfleisch durch den Fleischwolf ziehen lassen oder sehr klein schneiden und mit hineingeben.</p>
+        <p>Für den Teig alle Zutaten miteinander vermischen, zu einem Hefeteig verkneten und an einem warmen Ort ca. 30 Minuten gehen lassen.</p>
+        <p>Aus dem Teig könnt ihr kleine Bällschen formen und diese so groß wie ein kuchentellergroß ausrollen.</p>
+        <p>Jetzt könnt ihr je ein bis zwei Esslöffel der Füllung darüber geben und mit einer Gabel verteilen.
+        </p>Das wichtigste ist natürlich, dass die türkische Pizza in einem Pizzaofen einzeln gebacken wird.</p>
+        <p>Viel Spaß beim Nachbacken.</p>
+
+
+        <div class="rezept-impressum-container">
+
+            <h4>Rezept erstellt von</h4>
+
+            <div class="rezept-impressum">
+                <img src="img/profile.png" alt="">
+                <p>Faruk</p>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <div>
+            <div><img class="footerLogo" src="img/logo_small.png" alt="Logo Kochwelt"></div>
+            <div class="copyright">© 2022 Copyright Kochwelt</div>
+        </div>
+        <div>
+            <a href="imprint.html">Impressum</a>|
+            <a href="privacy.html">Datenschutz</a>
+        </div>
+    </div>
+    <!--Footer Ende-->
+
+</body>
+
+</html>
